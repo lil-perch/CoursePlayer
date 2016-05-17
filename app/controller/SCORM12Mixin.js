@@ -37,7 +37,8 @@ Ext.define('Player.controller.SCORM12Mixin', {
 
   Initialize: function(config) {
     var me = this,
-      blnResult = true;
+        blnResult = true,
+        lStatus = me.GetValue("cmi.core.lesson_status");
 
     me.callParent(arguments);
 
@@ -45,11 +46,15 @@ Ext.define('Player.controller.SCORM12Mixin', {
       if (me.GetValue("cmi.core.lesson_mode") == 'browse') {
         blnResult = me.SetValue("cmi.core.lesson_status", 'browsed');
       } else {
-        if (me.GetValue("cmi.core.lesson_status") == "not attempted") {
+        if (lStatus == "not attempted") {
           blnResult = me.SetValue("cmi.core.lesson_status", "incomplete");
         }
       }
       blnResult = me.SetValue("cmi.core.exit", "suspend") && blnResult;
+    }
+    //Enterprise Products Custom: If failed set to incomplete
+    if (lStatus == "failed") {
+      blnResult = me.SetValue("cmi.core.lesson_status", "incomplete");
     }
     return true;
   },

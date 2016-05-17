@@ -46,7 +46,8 @@ Ext.define('Player.controller.SCORM2004Mixin', {
     }
 
     // get status
-    if (me.GetStatus() == 'not attempted') {
+    //Change for Enterprise products so that failed status is marked as incomplete on relaunch.
+    if (me.GetStatus() == 'not attempted' || me.GetStatus() == 'failed') {
       result = me.SetValue('cmi.completion_status', 'incomplete');
     }
     result = me.SetValue("cmi.exit", 'suspend') && result;
@@ -61,6 +62,7 @@ Ext.define('Player.controller.SCORM2004Mixin', {
     var me = this,
       success_status = me.GetValue("cmi.success_status"),
       completion_status = me.GetValue("cmi.completion_status");
+      
     if (success_status == 'passed') {
       return 'passed';
     } else if (success_status == 'failed') {
