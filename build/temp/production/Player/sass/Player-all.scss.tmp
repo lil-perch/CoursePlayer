@@ -1,6 +1,6 @@
 $app-name:  dynamic( 'Player' );
-$image-search-path: '/Users/stevenhancock/Products/HTML5Style_Eprod/build/production/Player/iconicModern/resources';
-$theme-name:  dynamic( 'modern-iconic' );
+$image-search-path: '/Users/stevenhancock/Products/HTML5Style_Eprod/build/production/Player/modern/resources';
+$theme-name:  dynamic( 'default-theme-modern' );
 $include-ext-abstractcomponent: dynamic(false);;
 $include-ext-abstractmanager: dynamic(false);;
 $include-ext-abstractplugin: dynamic(false);;
@@ -681,7 +681,6 @@ $include-player-view-main-floatingtoc: dynamic(false);;
 $include-player-view-main-glossary: dynamic(true);;
 $include-player-view-main-glossarycontroller: dynamic(true);;
 $include-player-view-main-glossarypanel: dynamic(true);;
-$include-player-view-main-helppanel: dynamic(false);;
 $include-player-view-main-helppanelmodel: dynamic(true);;
 $include-player-view-main-helppanelphone: dynamic(true);;
 $include-player-view-main-helppaneltablet: dynamic(true);;
@@ -768,13 +767,13 @@ $current-resource-root: $font-pictos-resource-root;
 $relative-image-path-for-uis: $font-pictos-resource-path;
 @import '../../../../../ext/packages/font-pictos/sass/etc/all';
 
-/* including package modern-iconic */
-$modern-iconic-resource-root: '' !default;
-$modern-iconic-resource-path: 'images' !default;
-$current-package: 'modern-iconic';
-$current-resource-root: $modern-iconic-resource-root;
-$relative-image-path-for-uis: $modern-iconic-resource-path;
-@import '../../../../../packages/local/modern-iconic/sass/etc/all';
+/* including package default-theme-modern */
+$default-theme-modern-resource-root: '' !default;
+$default-theme-modern-resource-path: 'images' !default;
+$current-package: 'default-theme-modern';
+$current-resource-root: $default-theme-modern-resource-root;
+$relative-image-path-for-uis: $default-theme-modern-resource-path;
+@import '../../../../../packages/local/default-theme-modern/sass/etc/all';
 
 /* including package font-awesome */
 $font-awesome-resource-root: 'font-awesome' !default;
@@ -937,19 +936,19 @@ $current-resource-root: $font-pictos-resource-root;
 $relative-image-path-for-uis: $font-pictos-resource-path;
 @import '../../../../../ext/packages/font-pictos/sass/src/all';
 
-/* including package modern-iconic */
-$modern-iconic-resource-root: '' !default;
-$modern-iconic-resource-path: 'images' !default;
-$current-package: 'modern-iconic';
-$current-resource-root: $modern-iconic-resource-root;
-$relative-image-path-for-uis: $modern-iconic-resource-path;
-@import '../../../../../packages/local/modern-iconic/sass/src/Player/view/main/HelpPanelPhone';
-@import '../../../../../packages/local/modern-iconic/sass/src/Player/view/main/LowerToolBar';
-@import '../../../../../packages/local/modern-iconic/sass/src/Player/view/main/UpperToolBar';
-@import '../../../../../packages/local/modern-iconic/sass/src/Player/view/main/HelpPanelTablet';
-@import '../../../../../packages/local/modern-iconic/sass/src/Player/view/main/Main';
-@import '../../../../../packages/local/modern-iconic/sass/src/Player/layout/Accordion';
-@import '../../../../../packages/local/modern-iconic/sass/src/Player/page/Quiz';
-@import '../../../../../packages/local/modern-iconic/sass/src/Player/page/Definitions';
-@import '../../../../../packages/local/modern-iconic/sass/src/Player/page/CategoriesDrag';
-@import '../../../../../packages/local/modern-iconic/sass/src/Player/page/Matching';
+/* including package default-theme-modern */
+$default-theme-modern-resource-root: '' !default;
+$default-theme-modern-resource-path: 'images' !default;
+$current-package: 'default-theme-modern';
+$current-resource-root: $default-theme-modern-resource-root;
+$relative-image-path-for-uis: $default-theme-modern-resource-path;
+@import '../../../../../packages/local/default-theme-modern/sass/src/Player/view/main/HelpPanelPhone';
+@import '../../../../../packages/local/default-theme-modern/sass/src/Player/view/main/LowerToolBar';
+@import '../../../../../packages/local/default-theme-modern/sass/src/Player/view/main/UpperToolBar';
+@import '../../../../../packages/local/default-theme-modern/sass/src/Player/view/main/HelpPanelTablet';
+@import '../../../../../packages/local/default-theme-modern/sass/src/Player/view/main/Main';
+@import '../../../../../packages/local/default-theme-modern/sass/src/Player/layout/Accordion';
+@import '../../../../../packages/local/default-theme-modern/sass/src/Player/page/Quiz';
+@import '../../../../../packages/local/default-theme-modern/sass/src/Player/page/Definitions';
+@import '../../../../../packages/local/default-theme-modern/sass/src/Player/page/CategoriesDrag';
+@import '../../../../../packages/local/default-theme-modern/sass/src/Player/page/Matching';
