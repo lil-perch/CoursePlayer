@@ -73,28 +73,15 @@ Ext.define('Player.view.main.MainController', {
     me.callParent(arguments);
     toc.maskPages(false);
 
-    var pageNarration = pageNode.getNarration(),
-      narrationText = '';
-    var header = pageNode.getHeader(),
-      narrationBtn = header.queryById('narrationBtn');
+    var pageNarration = pageNode.getNarration();
+    var lowertoolbar = me.lookupReference('lowerToolBar');
+    var narrationBtn = lowertoolbar.queryById('narrationBtn');
     if (pageNarration && pageNarration.hasOwnProperty('#text')) {
-      narrationText = pageNarration['#text'];
-      if (!narrationBtn) {
-        header.add({
-          xtype: 'button',
-          itemId: 'narrationBtn',
-          iconCls: 'pictos pictos-chat',
-          disabled: false,
-          ui: 'default',
-          action: 'shownarration'
-        });
-      } else {
-        narrationBtn.show();
-      }
+      narrationBtn.enable();
+      narrationBtn.show();
     } else {
-      if (narrationBtn) {
-        narrationBtn.hide();
-      }
+      narrationBtn.hide();
+      narrationBtn.disable();
     }
   },
 

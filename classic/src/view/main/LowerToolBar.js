@@ -30,13 +30,23 @@ Ext.define('Player.view.main.LowerToolBar', {
       action: 'previousPage'
     }, {
       xtype: 'tbspacer',
-      flex: 1
+      flex: 2
     }, {
       xtype: 'container',
       bind: {
         hidden: '{!pageNumbering}',
         html: "{pageNumber} of {totalPageNumber}"
       }
+    }, {
+      xtype: 'tbspacer',
+      flex: 1
+    }, {
+      xtype: 'button',
+      itemId: 'narrationBtn',
+      iconCls: 'pictos pictos-chat',
+      disabled: false,
+      ui: 'default',
+      action: 'shownarration'
     }, {
       xtype: 'tbspacer',
       flex: 1

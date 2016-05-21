@@ -11,6 +11,8 @@ Ext.define('Player.view.tableofcontents.TableOfContents', {
   rootVisible: false,
   store: 'ScoTreeStore',
 
+  
+
   goToNode: function(pageNode) {
     // Nothing to do here; just here to make compatibl with nested list
   },

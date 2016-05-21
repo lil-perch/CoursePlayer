@@ -5,7 +5,7 @@ Ext.define('Player.view.tableofcontents.TableOfContentsController', {
 		var me = this,
 			path = pageNode.getPath(),
 			toc = me.getView();
-		toc.selectPath(path);
+		//toc.selectPath(path);
 	}
 });
 

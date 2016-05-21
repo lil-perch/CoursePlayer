@@ -44,6 +44,7 @@ Ext.define('Player.page.BasePage', {
         nType: cfg.nType
       });
     }
+    delete cfg.title;
 
     me.callParent([cfg]);
   },

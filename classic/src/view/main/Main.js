@@ -36,9 +36,26 @@ Ext.define('Player.view.main.Main', {
     xtype: 'tableofcontents',
     width: 250,
     collapsible: true,
+    collapsed: true,
+    hideCollapseTool: true,
+    iconCls: 'pictos pictos-list',
+    closeAction: 'hide',
+    titleRotation: 0,
+    titleCollapse: false,
+    /*placeholder: {
+      title: 'asdf'
+    },*/
+    /*tbar: [{
+      xtype: 'header',
+      title: 'TOC'
+    }],*/
+    //iconAlign: 'center',
+    title: '',
     title: Lang.tableofcontents,
     region: 'west',
-    split: true
+    split: false,
+
+
   }, {
     xtype: 'uppertoolbar',
     region: 'north',
