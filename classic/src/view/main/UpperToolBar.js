@@ -10,6 +10,7 @@ Ext.define('Player.view.main.UpperToolBar', {
 	viewModel: {
 		type: 'uppertoolbar'
 	},
+	cls: 'uppertoolbar',
 	height: 47,
 	layout: {
 		align: 'center',

@@ -9,9 +9,38 @@ $font-size: dynamic(14px);
   $ui: 'action'
 );
 
+body {
+  position: absolute !important;
+  height: 550px !important;
+  width: 960px !important;
+  min-height: initial !important;
+}
 
 
+#tableOfContents-placeholder {
+  height: 500px !important
+}
+#tableOfContents-body {
+  height: 450px !important;
+  .x-tree-view{
+    height: 450px !important;
+  }
+}
 
+
+.uppertoolbar {
+  /* width: 960px !important; */
+  .x-box-inner {
+    /* width: 960px !important; */
+  }
+}
+
+
+.lowerToolBar {
+  .x-toolbar {
+    /* ss */
+  }
+}
 
 
 

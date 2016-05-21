@@ -1,5 +1,5 @@
 $app-name:  dynamic( 'Player' );
-$image-search-path: '/Users/stevenhancock/Products/HTML5Style_Eprod/build/production/Player/classic/resources';
+$image-search-path: 'c:/data/www/sandbox/la/CoursePlayer/build/production/Player/classic/resources';
 $theme-name:  dynamic( 'default-theme-classic' );
 $include-ext-abstractcomponent: dynamic(true);;
 $include-ext-abstractcontainer: dynamic(true);;
@@ -1531,6 +1531,7 @@ $relative-image-path-for-uis: $default-theme-classic-resource-path;
 @import '../../../../../packages/local/default-theme-classic/sass/src/Player/page/CategoriesDrag';
 @import '../../../../../packages/local/default-theme-classic/sass/src/Player/page/Matching';
 @import '../../../../../packages/local/default-theme-classic/sass/src/Player/view/main/LowerToolBar';
+@import '../../../../../packages/local/default-theme-classic/sass/src/Player/view/tableofcontents/TableOfContents';
 @import '../../../../../packages/local/default-theme-classic/sass/src/Player/view/main/UpperToolBar';
 @import '../../../../../packages/local/default-theme-classic/sass/src/Player/view/main/Main';
 

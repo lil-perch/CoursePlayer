@@ -1,2 +1,2 @@
 // @tag full-page
-// @require /Users/stevenhancock/Products/HTML5Style_Eprod/app.js
+// @require c:\data\www\sandbox\la\CoursePlayer\app.js

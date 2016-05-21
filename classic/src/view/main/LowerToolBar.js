@@ -22,7 +22,10 @@ Ext.define('Player.view.main.LowerToolBar', {
   },
   items: [{
     xtype: 'toolbar',
+    //flex: 1,
     width: '100%',
+    padding: '2 0 2 2',
+    //width: 960,
     items: [{
       xtype: 'button',
       iconCls: 'pictos pictos-arrow_left',
