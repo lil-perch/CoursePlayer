@@ -57,6 +57,7 @@ Ext.define('Player.view.main.LowerToolBar', {
       xtype: 'button',
       iconCls: 'pictos pictos-arrow_right',
       ui: 'default',
+      cls: 'nextPage',
       action: 'nextPage'
     }]
   }]

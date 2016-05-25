@@ -36,28 +36,17 @@ Ext.define('Player.view.main.Main', {
     xtype: 'tableofcontents',
     width: 250,
     cls: 'tableofcontents',
-    //height: 500,
     collapsible: true,
-    //collapsed: true,
+    collapsed: true,
     hideCollapseTool: true,
     iconCls: 'pictos pictos-list',
     closeAction: 'hide',
     titleRotation: 0,
     titleCollapse: false,
-    /*placeholder: {
-      title: 'asdf'
-    },*/
-    /*tbar: [{
-      xtype: 'header',
-      title: 'TOC'
-    }],*/
-    //iconAlign: 'center',
     title: '',
     title: Lang.tableofcontents,
     region: 'west',
     split: false
-
-
   }, {
     xtype: 'container',
     region: 'center',
@@ -66,7 +55,8 @@ Ext.define('Player.view.main.Main', {
       xtype: 'uppertoolbar',
       region: 'north',
       height: 50,
-      itemId: 'upperToolbar'
+      itemId: 'upperToolbar',
+      width: 914
     }, {
       itemId: 'contentPanel',
       layout: {
@@ -78,11 +68,12 @@ Ext.define('Player.view.main.Main', {
         hidden: true
       }, {
         xtype: 'pages',
-        height:457,
-        width: 660
+        height: 657,
+        width: 960
       }, {
-        xtype: 'lowertoolbar'
-        //height: 40,
+        xtype: 'lowertoolbar',
+        height: 40,
+        width: 914
         //padding: '0 0 0 0'
       }]
     }]

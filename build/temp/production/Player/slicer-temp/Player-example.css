@@ -24054,65 +24054,100 @@ div.x-border-layout-ct {
 }
 /* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:14 */
 body {
-    position: absolute !important;
-    height: 550px !important;
-    width: 960px !important;
+    position: relative !important;
+    height: 750px !important;
+    width: 1010px !important;
     min-height: initial !important;
+    top: 50%;
+    transform: translateY(-50%);
 }
-/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:22 */
+/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:26 */
 #tableOfContents-placeholder {
-    height: 500px !important;
+    height: 747px !important;
 }
-/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:25 */
+/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:29 */
 #tableOfContents-body {
-    height: 450px !important;
+    height: 702px !important;
 }
-/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:27 */
+/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:31 */
 #tableOfContents-body .x-tree-view {
-    height: 450px !important;
+    height: 702px !important;
+}
+/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:45 */
+.lowerToolBar {
+    width: 960px !important;
+}
+/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:47 */
+.lowerToolBar .nextPage {
+    left: 924px !important;
+}
+/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:50 */
+.lowerToolBar .x-toolbar {
+    width: 960px !important;
+    padding: 2px !important;
 }
 /* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:53 */
+.lowerToolBar .x-toolbar .x-box-inner {
+    width: 958px !important;
+}
+/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:60 */
+.uppertoolbar {
+    width: 960px !important;
+}
+/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:62 */
+.uppertoolbar .nextPage {
+    left: 924px !important;
+}
+/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:65 */
+.uppertoolbar .x-box-inner {
+    width: 944px !important;
+}
+/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:67 */
+.uppertoolbar .x-box-inner .x-box-target {
+    width: 944px !important;
+}
+/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:82 */
 a {
     color: inherit;
     font-family: Verdana;
     font-size: inherit;
     text-decoration: inherit;
 }
-/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:66 */
+/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:95 */
 .page-content {
     /* p{
   margin: 0;
 } */
-    padding: 0 0 0 10px;
+    padding: 0 0 0 0;
 }
-/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:71 */
+/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:100 */
 .captionhead {
     font-weight: bold;
 }
-/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:77 */
+/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:106 */
 .imagecontainer.rightimage {
     margin-left: 14px;
     padding-left: 12px;
     margin-top: 14px;
 }
-/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:82 */
+/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:111 */
 .imagecontainer.leftimage {
     margin-top: 14px;
     margin-right: 14px;
     padding-right: 12px;
 }
-/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:89 */
+/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:118 */
 .x-panel-body-default {
     background-color: white !important;
 }
-/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:93 */
+/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:122 */
 .imageicon {
     width: 24px;
     height: 24px;
     background: rgba(100, 100, 100, 0.6);
     cursor: pointer;
 }
-/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:97 */
+/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:126 */
 .imageicon:before {
     top: 3px;
     left: 3px;
@@ -24120,7 +24155,7 @@ a {
     color: white;
     font-size: 20px;
 }
-/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:113 */
+/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:142 */
 .restricted-item {
     /* 
 
@@ -24129,24 +24164,24 @@ Table of Contents
  */
     color: lightgray;
 }
-/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:115 */
+/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:144 */
 .restricted-item .x-tree-icon {
     color: lightgray !important;
 }
-/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:120 */
+/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:149 */
 .x-grid-cell-inner,
 .x-grid-hd-inner {
     white-space: normal;
     /* changed from nowrap */
     display: flex;
 }
-/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:123 */
+/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:152 */
 .x-grid-cell-inner .x-tree-node-text,
 .x-grid-hd-inner .x-tree-node-text {
     display: inline-block;
     flex: 1;
 }
-/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:135 */
+/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:164 */
 .narrationpanel .x-window-body {
     /* 
 
@@ -25331,7 +25366,7 @@ Narration
 .x-button-checkAnswerBtn-small-cell > .x-grid-cell-inner >.x-btn-checkAnswerBtn-small {
     vertical-align: top;
 }
-/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:153 */
+/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:182 */
 .question-container {
     -webkit-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.26);
     -moz-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.26);
@@ -25341,36 +25376,36 @@ Narration
     margin-top: 10px;
     margin-bottom: 30px;
 }
-/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:160 */
+/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:189 */
 .question-container .pageText {
     margin: 10px 0 0 6px;
     border-bottom: 1px solid darkgray;
 }
-/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:165 */
+/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:194 */
 .question-container .x-input-text {
     border: 1px solid darkgray;
 }
-/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:171 */
+/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:200 */
 .emailpopup .x-window-body {
     margin: 10px;
 }
-/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:178 */
+/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:207 */
 .ddtask-drag .x-autocontainer-innerCt {
     /* DRAG */
     border: 1px solid darkgray;
     padding: 6px;
 }
-/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:184 */
+/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:213 */
 .ddtask-drop .x-autocontainer-innerCt {
     /* DROP */
     border: 1px solid darkgray;
     padding: 6px;
 }
-/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:189 */
+/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:218 */
 .drag-over {
     border: 1px solid green !important;
 }
-/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:213 */
+/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:242 */
 
 /* DDNUM */
 /* 
@@ -25378,31 +25413,31 @@ Visual Layout Page
 */p {
     line-height: initial !important;
 }
-/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:223 */
+/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:252 */
 .imagemouseover-wrap img {
     -webkit-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
     -o-transition: all 0.2s ease-in-out;
     -ms-transition: all 0.2s ease-in-out;
 }
-/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:230 */
+/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:259 */
 .imagemouseover-over {
     -webkit-transform: scale(2);
     -moz-transform: scale(2);
     -o-transform: scale(2);
     transform: scale(2);
 }
-/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:243 */
+/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:272 */
 .definitions-review-definition {
     /* Definitions */
     margin: 10px 10px 0 0;
     border: 2px solid #5fa2dd;
 }
-/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:248 */
+/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:277 */
 .definitions-review-terms {
     margin-top: 10px;
 }
-/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:253 */
+/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:282 */
 .termtext {
     padding: 10px;
     margin: 10px 0;
@@ -25413,7 +25448,7 @@ Visual Layout Page
     border-bottom-left-radius: 5px;
     margin: 10px 0;
 }
-/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:266 */
+/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:295 */
 .note {
     /* NOTE */
     border: 1px solid #5fa2dd;

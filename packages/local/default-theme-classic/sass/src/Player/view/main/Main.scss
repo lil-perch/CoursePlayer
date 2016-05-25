@@ -10,20 +10,24 @@ $font-size: dynamic(14px);
 );
 
 body {
-  position: absolute !important;
-  height: 550px !important;
-  width: 960px !important;
+  position: relative !important;
+  height: 750px !important;
+  width: 1010px !important;
   min-height: initial !important;
+  top: 50%;
+  transform: translateY(-50%);
+  /* background-color: white !important; */
+
 }
 
 
 #tableOfContents-placeholder {
-  height: 500px !important
+  height: 747px !important
 }
 #tableOfContents-body {
-  height: 450px !important;
+  height: 702px !important;
   .x-tree-view{
-    height: 450px !important;
+    height: 702px !important;
   }
 }
 
@@ -37,11 +41,37 @@ body {
 
 
 .lowerToolBar {
+  width: 960px !important;
+  .nextPage {
+    left: 924px !important;
+  }
   .x-toolbar {
-    /* ss */
+    width: 960px !important;
+    padding: 2px !important;
+    .x-box-inner{
+      width: 958px !important;
+
+    }
   }
 }
 
+.uppertoolbar {
+  width: 960px !important;
+  .nextPage {
+    left: 924px !important;
+  }
+  .x-box-inner{
+    width: 944px !important;
+    .x-box-target{
+      width: 944px !important;
+
+    }
+  }
+  /* .x-toolbar {
+    width: 960px !important;
+    padding: 2px !important;
+  } */
+}
 
 
 a{
@@ -58,7 +88,7 @@ a{
 //@include extjs-button-ui($ui:'action', #9EC8EA, $background-gradient:'bevel');
 
 .page-content{
-	padding:0 0 0 10px;
+	padding:0 0 0 0;
 }
 
 

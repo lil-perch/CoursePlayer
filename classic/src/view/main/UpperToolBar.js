@@ -24,16 +24,18 @@ Ext.define('Player.view.main.UpperToolBar', {
 		}
 	}, {
 		xtype: 'tbspacer',
-		flex: 1
+		width: 696
 	}, {
 		xtype: 'button',
 		text: 'Glossary',
 		ui: 'default',
 		iconCls: 'pictos pictos-table',
-		action: 'showGlossary'
+		action: 'showGlossary',
+		cls: 'showGlossary'
 	}, {
 		xtype: 'button',
 		action: 'showHelp',
+		cls: 'showHelp',
 		ui: 'default',
 		iconCls: 'pictos pictos-question',
 		bind: {
@@ -44,6 +46,7 @@ Ext.define('Player.view.main.UpperToolBar', {
 		iconCls: 'pictos pictos-delete',
 		ui: 'default',
 		action: 'close',
+		cls: 'close',
 		bind: {
 			hidden: '{!showClose}'
 		}
