@@ -22,7 +22,7 @@ Ext.define('Player.page.questions.Question', {
       timeout: toastObj.timeout,
       closable: toastObj.closable,
       align: toastObj.align,
-      paddingY: 60,
+      paddingY: 160,
       paddingX: 5
     });
     me._toasts.push(toast);

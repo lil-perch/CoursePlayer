@@ -42,6 +42,7 @@ Ext.define('Player.page.BaseTextPage', {
     if ( !! cfg.mediaPath) {
       items.push({
         xtype: 'audiobar',
+        cls: 'audiobar',
         itemId: 'audio',
         region: 'south',
         docked: 'bottom',

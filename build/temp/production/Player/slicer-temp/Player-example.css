@@ -23464,6 +23464,14 @@ div.x-border-layout-ct {
     font-size: 22px;
     color: #404040;
 }
+/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/UpperToolBar.scss:11 */
+.uppertoolbar {
+    -webkit-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.26);
+    -moz-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.26);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.26);
+    z-index: 2;
+    padding: 0 0 0 0;
+}
 /* http://localhost:1841/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
 .x-btn-action-small {
     -webkit-border-radius: 0;
@@ -24052,102 +24060,65 @@ div.x-border-layout-ct {
 .x-button-action-small-cell > .x-grid-cell-inner >.x-btn-action-small {
     vertical-align: top;
 }
-/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:14 */
-body {
-    position: relative !important;
-    height: 750px !important;
-    width: 1010px !important;
-    min-height: initial !important;
-    top: 50%;
-    transform: translateY(-50%);
+/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:20 */
+.nextPage {
+    left: 939px !important;
 }
-/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:26 */
-#tableOfContents-placeholder {
-    height: 747px !important;
-}
-/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:29 */
-#tableOfContents-body {
-    height: 702px !important;
-}
-/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:31 */
-#tableOfContents-body .x-tree-view {
-    height: 702px !important;
-}
-/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:45 */
-.lowerToolBar {
-    width: 960px !important;
-}
-/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:47 */
-.lowerToolBar .nextPage {
-    left: 924px !important;
-}
-/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:50 */
+/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:27 */
 .lowerToolBar .x-toolbar {
-    width: 960px !important;
+    width: 975px !important;
     padding: 2px !important;
 }
-/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:53 */
+/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:30 */
 .lowerToolBar .x-toolbar .x-box-inner {
-    width: 958px !important;
+    width: 973px !important;
 }
-/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:60 */
-.uppertoolbar {
-    width: 960px !important;
-}
-/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:62 */
-.uppertoolbar .nextPage {
-    left: 924px !important;
-}
-/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:65 */
-.uppertoolbar .x-box-inner {
-    width: 944px !important;
-}
-/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:67 */
-.uppertoolbar .x-box-inner .x-box-target {
-    width: 944px !important;
-}
-/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:82 */
+/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:52 */
 a {
     color: inherit;
     font-family: Verdana;
     font-size: inherit;
     text-decoration: inherit;
 }
-/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:95 */
+/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:65 */
 .page-content {
     /* p{
   margin: 0;
 } */
-    padding: 0 0 0 0;
+    padding: 0 12px 0 0;
 }
-/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:100 */
+/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:69 */
+.audiobar {
+    padding-right: 15px;
+}
+/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:74 */
 .captionhead {
     font-weight: bold;
 }
-/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:106 */
+/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:80 */
 .imagecontainer.rightimage {
     margin-left: 14px;
     padding-left: 12px;
     margin-top: 14px;
 }
-/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:111 */
+/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:85 */
 .imagecontainer.leftimage {
     margin-top: 14px;
     margin-right: 14px;
     padding-right: 12px;
 }
-/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:118 */
+/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:92 */
 .x-panel-body-default {
     background-color: white !important;
 }
-/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:122 */
+/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:96 */
 .imageicon {
     width: 24px;
     height: 24px;
     background: rgba(100, 100, 100, 0.6);
     cursor: pointer;
 }
-/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:126 */
+/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:100 */
 .imageicon:before {
     top: 3px;
     left: 3px;
@@ -24155,7 +24126,7 @@ a {
     color: white;
     font-size: 20px;
 }
-/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:142 */
+/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:116 */
 .restricted-item {
     /* 
 
@@ -24164,24 +24135,24 @@ Table of Contents
  */
     color: lightgray;
 }
-/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:144 */
+/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:118 */
 .restricted-item .x-tree-icon {
     color: lightgray !important;
 }
-/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:149 */
+/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:123 */
 .x-grid-cell-inner,
 .x-grid-hd-inner {
     white-space: normal;
     /* changed from nowrap */
     display: flex;
 }
-/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:152 */
+/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:126 */
 .x-grid-cell-inner .x-tree-node-text,
 .x-grid-hd-inner .x-tree-node-text {
     display: inline-block;
     flex: 1;
 }
-/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:164 */
+/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:138 */
 .narrationpanel .x-window-body {
     /* 
 
@@ -25366,7 +25337,7 @@ Narration
 .x-button-checkAnswerBtn-small-cell > .x-grid-cell-inner >.x-btn-checkAnswerBtn-small {
     vertical-align: top;
 }
-/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:182 */
+/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:156 */
 .question-container {
     -webkit-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.26);
     -moz-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.26);
@@ -25376,36 +25347,36 @@ Narration
     margin-top: 10px;
     margin-bottom: 30px;
 }
-/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:189 */
+/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:163 */
 .question-container .pageText {
     margin: 10px 0 0 6px;
     border-bottom: 1px solid darkgray;
 }
-/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:194 */
+/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:168 */
 .question-container .x-input-text {
     border: 1px solid darkgray;
 }
-/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:200 */
+/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:174 */
 .emailpopup .x-window-body {
     margin: 10px;
 }
-/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:207 */
+/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:181 */
 .ddtask-drag .x-autocontainer-innerCt {
     /* DRAG */
     border: 1px solid darkgray;
     padding: 6px;
 }
-/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:213 */
+/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:187 */
 .ddtask-drop .x-autocontainer-innerCt {
     /* DROP */
     border: 1px solid darkgray;
     padding: 6px;
 }
-/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:218 */
+/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:192 */
 .drag-over {
     border: 1px solid green !important;
 }
-/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:242 */
+/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:216 */
 
 /* DDNUM */
 /* 
@@ -25413,31 +25384,31 @@ Visual Layout Page
 */p {
     line-height: initial !important;
 }
-/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:252 */
+/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:226 */
 .imagemouseover-wrap img {
     -webkit-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
     -o-transition: all 0.2s ease-in-out;
     -ms-transition: all 0.2s ease-in-out;
 }
-/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:259 */
+/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:233 */
 .imagemouseover-over {
     -webkit-transform: scale(2);
     -moz-transform: scale(2);
     -o-transform: scale(2);
     transform: scale(2);
 }
-/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:272 */
+/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:246 */
 .definitions-review-definition {
     /* Definitions */
     margin: 10px 10px 0 0;
     border: 2px solid #5fa2dd;
 }
-/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:277 */
+/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:251 */
 .definitions-review-terms {
     margin-top: 10px;
 }
-/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:282 */
+/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:256 */
 .termtext {
     padding: 10px;
     margin: 10px 0;
@@ -25448,7 +25419,7 @@ Visual Layout Page
     border-bottom-left-radius: 5px;
     margin: 10px 0;
 }
-/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:295 */
+/* http://localhost:1841/packages/local/default-theme-classic/sass/src/Player/view/main/Main.scss:269 */
 .note {
     /* NOTE */
     border: 1px solid #5fa2dd;

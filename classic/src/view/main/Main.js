@@ -21,61 +21,74 @@ Ext.define('Player.view.main.Main', {
   controller: 'main',
   viewModel: 'main',
 
-  layout: 'border',
+  layout: {
+        type: 'hbox',
+        align: 'middle',
+        pack: 'center'
+    },
 
   items: [{
-    xtype: 'glossary',
-    itemId: 'glossaryWindow'
-  }, {
-    xtype: 'narrationpanel',
-    itemId: 'narrationWindow'
-  }, {
-    xtype: 'helppanel',
-    itemId: 'helpWindow'
-  }, {
-    xtype: 'tableofcontents',
-    width: 250,
-    cls: 'tableofcontents',
-    collapsible: true,
-    collapsed: true,
-    hideCollapseTool: true,
-    iconCls: 'pictos pictos-list',
-    closeAction: 'hide',
-    titleRotation: 0,
-    titleCollapse: false,
-    title: '',
-    title: Lang.tableofcontents,
-    region: 'west',
-    split: false
-  }, {
-    xtype: 'container',
-    region: 'center',
-    layout: 'border',
-    items: [{
-      xtype: 'uppertoolbar',
-      region: 'north',
-      height: 50,
-      itemId: 'upperToolbar',
-      width: 914
+      xtype: 'glossary',
+      itemId: 'glossaryWindow'
     }, {
-      itemId: 'contentPanel',
-      layout: {
-        type: 'vbox',
-        align: 'stretch'
-      },
+      xtype: 'narrationpanel',
+      itemId: 'narrationWindow'
+    }, {
+      xtype: 'helppanel',
+      itemId: 'helpWindow'
+    }, {
+      xtype: 'container',
+      layout: 'border',
+      cls: 'vp',
+      width: 1020,
+      height: 750,
       items: [{
-        xtype: 'timerbar',
-        hidden: true
+        xtype: 'tableofcontents',
+        width: 250,
+        cls: 'tableofcontents',
+        collapsible: true,
+        collapsed: true,
+        hideCollapseTool: true,
+        iconCls: 'pictos pictos-list',
+        closeAction: 'hide',
+        titleRotation: 0,
+        titleCollapse: false,
+        title: '',
+        title: Lang.tableofcontents,
+        region: 'west',
+        split: false
       }, {
-        xtype: 'pages',
-        height: 657,
-        width: 960
-      }, {
-        xtype: 'lowertoolbar',
-        height: 40,
-        width: 914
-        //padding: '0 0 0 0'
+        xtype: 'container',
+        region: 'center',
+        cls: 'center-container',
+        layout: 'border',
+        items: [{
+          xtype: 'uppertoolbar',
+          region: 'north',
+          height: 50,
+          itemId: 'upperToolbar'
+        }, {
+          itemId: 'contentPanel',
+          layout: {
+            type: 'vbox',
+            align: 'stretch'
+          },
+          items: [{
+            xtype: 'timerbar',
+            hidden: true
+          }, {
+            xtype: 'pages',
+            height: 657,
+            width: 975
+          }, {
+            xtype: 'lowertoolbar',
+            height: 40
+          }]
+        }]
       }]
-    }]
-  }]
+    }
+
+
+
+  ]
 });

@@ -24,7 +24,7 @@ Ext.define('Player.view.main.UpperToolBar', {
 		}
 	}, {
 		xtype: 'tbspacer',
-		width: 696
+		flex: 1
 	}, {
 		xtype: 'button',
 		text: 'Glossary',

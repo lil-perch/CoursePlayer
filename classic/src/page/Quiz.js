@@ -19,6 +19,8 @@ Ext.define('Player.page.Quiz', {
       questionList = me.refreshQuestionList(cfg);
     }
 
+    delete cfg.title;
+
     me.callParent([Ext.apply({
       items: questionList,
       totalItems: questionList.length,
