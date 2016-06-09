@@ -544,7 +544,7 @@ Ext.define('Player.view.main.BaseMainController', {
 
     var showClose = true;
     if (tracking == 'none' || (Player.params.showClose && Player.params.showClose != '1')) {
-      //showClose = false;
+      showClose = false;
     }
 
     uppertoolBarModel.set({

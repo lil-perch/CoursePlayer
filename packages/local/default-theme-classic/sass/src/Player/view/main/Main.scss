@@ -17,22 +17,6 @@ $font-size: dynamic(14px);
 
 
 
-.nextPage {
-  left: 939px !important;
-}
-
-
-
-.lowerToolBar {
-  .x-toolbar {
-    width: 975px !important;
-    padding: 2px !important;
-    .x-box-inner{
-      width: 973px !important;
-    }
-  }
-}
-
 
 
 
@@ -68,6 +52,10 @@ a{
 
 
 .imagecontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
   &.rightimage{
     margin-left: 14px; 
     padding-left: 12px;
