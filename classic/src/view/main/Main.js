@@ -48,6 +48,7 @@ Ext.define('Player.view.main.Main', {
         cls: 'tableofcontents',
         collapsible: true,
         collapsed: true,
+        collapseDirection: 'left',
         hideCollapseTool: true,
         iconCls: 'pictos pictos-list',
         closeAction: 'hide',

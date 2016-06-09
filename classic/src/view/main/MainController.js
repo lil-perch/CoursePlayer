@@ -32,6 +32,7 @@ Ext.define('Player.view.main.MainController', {
   },
 
   onLeafItemTap: function(treeview, record, el, index, eOpts) {
+    console.info("onLeafItemTap");
     if (record.isLeaf()) {
       this.goToPage(record);
     }
@@ -58,8 +59,6 @@ Ext.define('Player.view.main.MainController', {
       if(ok){
         var pageController = me.lookupReference('mainPages').getController();
         pageController.maskPages(Lang.Loading);
-        var toc = me.lookupReference('tableOfContents');
-        toc.maskPages(Lang.Loading);
       }
       return ok;
     }
