@@ -1,11 +1,17 @@
 {
     "definitions": [
         {
+            "definitions": [
+                {
+                    "definition": "<P style=\"text-align:LEFT\">TEST GLOSSARY DEFINITION<\/P>",
+                    "leaf": "true",
+                    "title": "1 - HTML5 TEST"
+                }
+            ],
             "text": "*",
             "leaf": false,
             "title": "*",
-            "numDef": 0,
-            "definitions": []
+            "numDef": 1
         },
         {
             "text": "A",

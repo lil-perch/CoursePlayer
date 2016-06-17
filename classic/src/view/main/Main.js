@@ -36,18 +36,21 @@ Ext.define('Player.view.main.Main', {
     xtype: 'tableofcontents',
     width: 250,
     cls: 'tableofcontents',
+
     collapsible: true,
     collapsed: true,
     collapseDirection: 'left',
     hideCollapseTool: true,
-    iconCls: 'pictos pictos-list',
+    split: false,
+    //iconCls: 'pictos pictos-list',
+    iconCls: 'x-fa fa-caret-right',
     closeAction: 'hide',
     titleRotation: 0,
+
     titleCollapse: false,
     title: '',
     title: Lang.tableofcontents,
-    region: 'west',
-    split: false
+    region: 'west'
   }, {
     xtype: 'container',
     region: 'center',
