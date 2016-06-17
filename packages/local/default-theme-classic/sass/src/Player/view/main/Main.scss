@@ -11,8 +11,6 @@ $font-size: dynamic(14px);
 
 
 
-.x-region-collapsed-left-placeholder{}
-
 #tableOfContents-placeholder{
   width: 10px !important;
   padding: 0px !important;
@@ -20,10 +18,22 @@ $font-size: dynamic(14px);
   border: darkgrey;
 }
 
+#tableOfContents-placeholder-innerCt{
+  width: 10px !important;
+}
+
+#tableOfContents-placeholder-targetEl{
+  width: 5px !important;
+}
+
 
 #tableOfContents-placeholder-title-iconWrapEl{
-  /* width: 10px !important; */
-  height: 741px
+  width: 10px !important;
+  /* height: 741px */
+}
+
+#tableOfContents-placeholder-title{
+  top: 370px !important;
 }
 
 
@@ -36,7 +46,10 @@ $font-size: dynamic(14px);
 
 
 
-
+.center-container{
+  width: 1017px !important;
+  left: 10px !important;
+}
 
 
 
