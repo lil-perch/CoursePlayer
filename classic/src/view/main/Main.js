@@ -75,7 +75,7 @@ Ext.define('Player.view.main.Main', {
           //width: 975
       }, {
         xtype: 'lowertoolbar',
-        height: 40
+        height: 50
       }]
     }]
   }]

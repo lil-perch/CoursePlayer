@@ -28,6 +28,9 @@ Ext.define('Player.view.main.LowerToolBar', {
       xtype: 'button',
       iconCls: 'pictos pictos-arrow_left',
       ui: 'default',
+      width: 40,
+      height: 40,
+      cls: 'previousPage',
       action: 'previousPage'
     }, {
       xtype: 'tbspacer',
@@ -55,6 +58,8 @@ Ext.define('Player.view.main.LowerToolBar', {
       xtype: 'button',
       iconCls: 'pictos pictos-arrow_right',
       ui: 'default',
+      width: 40,
+      height: 40,
       cls: 'nextPage',
       action: 'nextPage'
     }]

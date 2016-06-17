@@ -7,11 +7,11 @@ Ext.define('Player.view.main.AudioBar', {
     'Player.view.main.MediaSingle'
   ],
 
-  height: 90,
+  height: 40,
   layout: {
     align: 'center',
     pack: 'center',
-    type: 'vbox'
+    type: 'hbox'
   },
   scrollable: false,
 
@@ -26,6 +26,38 @@ Ext.define('Player.view.main.AudioBar', {
 
     me.callParent([Ext.apply({
       items: [{
+        xtype: 'container',
+        layout: 'hbox',
+        items: [{
+          xtype: 'button',
+          height: 28,
+          width: 28,
+          itemId: 'replayBtn',
+          iconCls: 'pictos pictos-rewind',
+          iconAlign: 'center',
+          listeners: {
+            click: me.onReplayTap,
+            scope: me
+          }
+        }, {
+          xtype: 'container',
+          width: 5
+        }, {
+          xtype: 'button',
+          iconCls: 'pictos pictos-play',
+          height: 28,
+          width: 28,
+          itemId: 'playBtn',
+          iconAlign: 'center',
+          listeners: {
+            click: me.onPlayTap,
+            scope: me
+          }
+        }, {
+          xtype: 'container',
+          width: 5
+        }]
+      }, {
         xtype: 'mediaslider',
         itemId: 'progressSlider',
         minValue: 0,
@@ -36,8 +68,9 @@ Ext.define('Player.view.main.AudioBar', {
           duration: 900,
           easing: 'linear'
         },
+        flex: 1,
         //animate: false,
-        width: '100%',
+        //width: '100%',
         listeners: {
           dragstart: me.onDragStart,
           dragend: me.onDragEnd,
@@ -45,35 +78,6 @@ Ext.define('Player.view.main.AudioBar', {
           scope: me
         },
         value: 0
-      }, {
-        xtype: 'container',
-        layout: 'hbox',
-        items: [{
-          xtype: 'button',
-          height: 40,
-          width: 40,
-          itemId: 'replayBtn',
-          iconCls: 'pictos pictos-rewind',
-          iconAlign: 'center',
-          listeners: {
-            click: me.onReplayTap,
-            scope: me
-          }
-        }, {
-          xtype: 'container',
-          width: 10
-        }, {
-          xtype: 'button',
-          iconCls: 'pictos pictos-play',
-          height: 50,
-          width: 50,
-          itemId: 'playBtn',
-          iconAlign: 'center',
-          listeners: {
-            click: me.onPlayTap,
-            scope: me
-          }
-        }]
       }, {
         xtype: 'audio',
         hidden: true,
