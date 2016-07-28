@@ -1,2 +1,2 @@
-Compass.add_project_configuration('..\..\..\..\..\sass\config.rb')
-cache_path = 'C:\data\www\sandbox\la\CoursePlayer/build/.sass-cache'
+Compass.add_project_configuration('../../../../../sass/config.rb')
+cache_path = '/home/jlwarren/LitmosAuthor/CoursePlayer/build/.sass-cache'

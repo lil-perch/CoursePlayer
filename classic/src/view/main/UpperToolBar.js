@@ -12,6 +12,7 @@ Ext.define('Player.view.main.UpperToolBar', {
 	},
 	cls: 'uppertoolbar',
 	height: 47,
+	width: 1007,
 	layout: {
 		align: 'center',
 		type: 'hbox'
